@@ -1,0 +1,302 @@
+/*  
+font-family: 'Amatic SC', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Amaranth', sans-serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'Droid Sans', sans-serif;
+*/
+header {
+    /* text-align: center;
+    background: url("Images/Chicago2.jpg");  */
+    background-size: cover;
+    color: white;
+}
+a {
+    color: black;
+}
+h1 {
+    font-family: 'Droid Sans', sans-serif;
+	font-size: 60px;
+	color: #FC4554;
+	top: 2px;
+	padding: 0px 0px 0px 0px; 
+}
+h2 {
+	font-family: 'Droid Sans', sans-serif;
+    font-size: 25px;
+	color: black;
+	font-style: italic;
+}
+h3 {
+	font-family: 'Droid Sans', sans-serif;
+    font-size: 15px;
+	color: black;
+}
+/* img {
+  margin: 10px 0px 0px 0px;
+  border: 7px solid white;
+  border-radius: 20px;
+  align: left;
+} */
+body { 
+  /* text-align: center; 
+  padding-top: 10px;  */
+  font-family: 'Droid Sans', sans-serif;
+  margin-left: 50px; 
+  margin-right: 50px; 
+  background-size: cover;
+  background-position: center;
+  background-color: #white;
+  color: black;
+  font-family: helvetica;
+}
+p {
+  font-family: 'Droid Sans', sans-serif;
+  size: 20px;
+  color: red;
+  font-size: 15px;
+}
+input {
+  border: 2;
+  padding: 10px;
+  font-size: 15px;
+}
+input[type="submit"] {
+  background: #d3d3d3;
+  color: black;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+input[type="reset"] {
+  background: #d3d3d3;
+  color: black;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+/* ul {
+  padding: 5px;
+  background: rgba(0,0,0,0.5);
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}  */
+
+/* Temporary
+ul {
+    font-family: 'Droid Sans', sans-serif;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #white;
+  border-radius: 10px;
+	font-weight: bold;
+}
+li {
+    font-family: 'Droid Sans', sans-serif;
+	float: left;
+}
+li a {
+    font-family: 'Droid Sans', sans-serif;
+	display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 7px 16px;
+    text-decoration: none;
+  border-radius: 10px;
+}
+li a:hover {
+    background-color: red;
+}
+article {
+  max-width: 500px;
+  padding: 10px;
+  text-align: left;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  h1 {
+	font-size: 36px;
+	padding: 5px;
+  }
+  li {
+	padding: 5px;
+	display: block;
+  }
+}
+*/
+/*   Temporarily Commented Out  */
+/*  Copied   */
+.active {
+	background-color: #A9A9A9;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d3d3d3;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #A9A9A9;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+
+
+
+
+
+
+/*  End Copy  */
+article {
+  max-width: 500px;
+  padding: 5px;
+  text-align: left;
+  margin: 0 auto;
+}
+.faqheader {
+	font-family: 'Droid Sans', sans-serif;
+    font-size: 25px;
+	color: black;
+	font-style: italic;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: bold;
+}
+.faq {
+    margin: 5px 0px 0px 0px;
+    padding: 0px 5px 5px 0px;
+    /* width: 200px;
+    height: 100px;
+    border: 1px solid black; */
+    overflow: auto;
+    transition: linear;
+}
+.hiddenfaq {
+	padding-top: 0;
+	padding-bottom: 0;
+	height: 0;
+	border-width: 0;
+}
+.headshot {
+	position: absolute;
+	/* margin: 10px 0px 0px 0px;
+	border-radius: 10px; 
+	left: 20px; 
+	border: 2px solid red; */ 
+	width: 150px;
+	height: 150px;
+}
+.namebox {
+	/* position: absolute; 
+	margin-left: 20px; */
+	position: relative; 
+	left: 160px;
+	width: 800px;
+	height: 75px;
+	line-height: 75px;
+	text-align: left;
+	vertical-align: top;
+	line-height: normal;     
+	/*
+	border: 2px solid red;
+		top: -159px;
+	border: 2px;
+	border-color: red;
+	border-style: solid; */
+}
+.appbox {
+	/* position: absolute; 
+	margin-left: 20px; */
+	position: relative; 
+	left: 160px;
+	width: 800px;
+	height: 75px;
+	line-height: 75px;
+	text-align: left;
+	/* border: 2px solid green;
+	border: 2px;
+	left: 160px;
+	top: -160px;border-color: red;
+	border-style: solid; */
+}
+.rpsdiv-rock {
+	position: relative;
+	left: 100px;
+	top: 25px;
+	width: 150px;
+	height: 150px;
+	border: 2px solid white;
+}
+.rpsdiv-paper {
+	position: relative;
+	top: -135px;
+	left: 275px;
+	width: 150px;
+	height: 150px;
+	border: 2px solid white;
+}
+.rpsdiv-scissors {
+	position: relative;
+	top: -295px;
+	left: 450px;
+	width: 150px;
+	height: 150px;
+	border: 2px solid white;
+}
+.hidden {
+    visibility: hidden;
+}
+.startbutton {
+	background-color: white;
+	color: red;
+}
+.resetbutton {
+	visibility: hidden;
+	background-color: white;
+	color: red;
+}

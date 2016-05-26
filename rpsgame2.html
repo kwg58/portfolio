@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+ <meta charset='utf-8'>
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+ <title>KWG Exercise for General Assemb.ly</title>
+ <link href='//fonts.googleapis.com/css?family=Advent+Pro:400,300,200,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+ <link href='//fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css' />
+ <link rel="stylesheet" href="css/kwg-styles.css">
+ <script script type="text/javascript" src="kwgsite.js"></script>
+ </head>
+<body onload=setActiveMenuOption("rpsgame2")>
+<header>
+<div>
+  <img class="headshot" src="images/KWG Head Shot.jpg" alt="Smiley face" border="2">
+</div>
+<div class = "namebox">
+  <h1>Kevin Golden</h1>
+</div>
+<div class = "appbox">
+<h2>Application for GeneralAssemb.ly Web Development Immersive</h2>
+</div> 
+<hr />
+    <ul>
+      <li id="home"><a href="index.html"><Span>Home</Span></a></li>
+      <li id="aboutme"><a href="aboutme.html"><Span>About Me</Span></a></li>
+      <li id="history"><a href="history.html"><Span>Career History</Span></a></li>
+      <li id="aspirations"><a href="aspirations.html"><Span>Career Aspirations</Span></a></li>
+      <li id="prompts"><a href="prompts.html"><Span>Test Prompts</Span></a></li>
+      <li id="rpsgame"><a href="rpsgame.html"><Span>Rock, Paper, Scissors</Span></a></li>
+      <li id="rpsgame2"><a href="rpsgame2.html"><Span>Rock, Paper, Scissors 2</Span></a></li>
+      <li id="kwgresume"><a href="kwgresume.pdf" target="_blank"><Span>My Resume</Span></a></li>
+    </ul>
+<hr />
+</header>
+<!-- Header ends here  -->
+<!-- <button type="button" onclick=userPrompt()>Play the Game!</button>  -->
+<br>
+<br>
+<button><img src="images/rock-paper-scissors-rock-icon.png" onclick="playGame(rock)" /></button>
+ <!-- <div>
+ <img class="rpsdiv-rock" src="images/rock-paper-scissors-rock-icon.png" height=150px width=150px alt="Smiley face"> 
+  
+</div> -->
+<div>
+  <img class="rpsdiv-paper" src="images/rock-paper-scissors-paper-icon.png" height=150px width=150px alt="Smiley face">
+</div>
+<div>
+  <img class="rpsdiv-scissors" src="images/rock-paper-scissors-scissors-icon.png" height=150px width=150px alt="Smiley face">
+</div>
+<div>
+  <h2 id="invalidResponse"> </h2>
+  <h2 id="userS">User Selects:</h2>
+  <h2 id="compS">Computer Selects:<h2> 
+  <h2 id="winningRule"> </h2> 
+  <h2 id="winnerID"> </h2>
+</div>
+ <script>
+ 
+/* console.log("Computer: " + computerChoice);
+console.log("User: "+ userChoice); */
+ </script>
+</body>
+</html>

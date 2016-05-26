@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+ <meta charset='utf-8'>
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+ <title>KWG Exercise for General Assemb.ly</title>
+ <link href='https://fonts.googleapis.com/css?family=Amaranth|Cabin|Droid+Sans' rel='stylesheet' type='text/css'>
+ <link rel="stylesheet" href="css/kwg-styles.css">
+ <script script type="text/javascript" src="kwgsite.js"></script>
+ <script script type="text/javascript" src="hangman.js"></script>
+ </head>
+<body onload=setActiveMenuOption("hangman")>
+<header>
+<div>
+  <img class="headshot" src="images/KWG Head Shot.jpg" alt="Smiley face" border="2">
+</div>
+<div class = "namebox">
+  <h1>Kevin Golden</h1>
+</div>
+<div class = "appbox">
+<h2>Application for GeneralAssemb.ly Web Development Immersive</h2>
+</div> 
+<hr />
+    <ul>
+      <li id="home"><a href="index.html"><Span>Home</Span></a></li>
+      <li id="aboutme"><a href="aboutme.html"><Span>About Me</Span></a></li>
+      <!-- <li id="history"><a href="history.html"><Span>Career History</Span></a></li>
+      <li id="aspirations"><a href="aspirations.html"><Span>Career Aspirations</Span></a></li>  -->
+      <li id="rpsgame"><a href="rpsgame.html"><Span>Rock, Paper, Scissors</Span></a></li>
+      <li id="hangman"><a href="newhangman.html"><Span>Hangman</Span></a></li>
+      <li id="kwgresume"><a href="kwgresume.pdf" target="_blank"><Span>My Resume</Span></a></li>
+    </ul>
+<hr /> 
+</header>
+<!-- Header ends here  -->
+<div id="welcome">
+<!-- include a button, clicking which will call a function that resets the divs and starts the game.
+Change the exit logic to reset the divs and clean up the data  -->
+<h2 id="greeting">Welcome to Hangman</h2>
+<h3 id="init1">Click the Play button to start playing</h3>
+<h3 id="greeting">Have fun!</h3>
+<br>
+<button type="button" style="font: 18px color:red" onclick="hangmanGame()"><b>Play Hangman</b></button>
+</div>
+
+<div id="playing" class="hidden">
+<h2 id="greeting">Now You're Playing Hangman!</h2>
+<br>
+<h3 id="response"></h3>
+<h3 id="userGuess"></h3>
+<h3 id="guesses"></h3> 
+<h3 id="livesLeft"> </h3> 
+<h3 id="correct"> </h3>
+<br>
+<button type="button" style="font: 18px color:red" onclick="userPrompt()"><b>Guess a Letter</b></button>
+<br>
+</div>
+ 
+  </body>
+</body>
+</html>

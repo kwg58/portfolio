@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+ <meta charset='utf-8'>
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+ <title>KWG Exercise for General Assemb.ly</title>
+ <link href='https://fonts.googleapis.com/css?family=Amaranth|Cabin|Droid+Sans' rel='stylesheet' type='text/css'>
+ <link rel="stylesheet" href="css/kwg-styles.css">
+ <script type="text/javascript" src="kwgsite.js"></script>
+ </head>
+<body onload=setActiveMenuOption("home")>
+<header>
+<!-- <div w3-include-html="header.html"></div>  -->
+<div>
+  <img class="headshot" src="images/KWGHeadShot.jpg" alt="Smiley face">
+</div>
+<div class = "namebox">
+  <h1>Kevin Golden</h1>
+</div>
+<div class = "appbox">
+<h2>Application for GeneralAssemb.ly Web Development Immersive</h2>
+</div>
+<hr />
+    <ul>
+      <li id="home"><a href="index.html"><Span>Home</Span></a></li>
+      <li id="aboutme"><a href="aboutme.html"><Span>About Me</Span></a></li>
+      <!-- <li id="history"><a href="history.html"><Span>Career History</Span></a></li>
+      <li id="aspirations"><a href="aspirations.html"><Span>Career Aspirations</Span></a></li>  -->
+      <li id="rpsgame"><a href="rpsgame.html"><Span>Rock, Paper, Scissors</Span></a></li>
+      <li id="hangman"><a href="newhangman.html"><Span>Hangman</Span></a></li>
+      <li id="kwgresume"><a href="kwgresume.pdf" target="_blank"><Span>My Resume</Span></a></li>
+    </ul>
+<hr />
+</header>
+
+  <article>
+  <h2>Send me some feedback</h2>
+
+  <form action="MAILTO:kwginva@gmail.com" method="post" enctype="text/plain">
+  Name:<br>
+  <input type="text" name="name"><br>
+  E-mail:<br>
+  <input type="text" name="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"><br>
+  Comment:<br>
+  <input type="text" name="comment" size="50"><br><br>
+  <input type="submit" value="Send">
+  <input type="reset" value="Reset">
+  </form>
+  </article>
+
+</body>
